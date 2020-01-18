@@ -541,7 +541,7 @@ a.tags,
 }
 
 .more-info h3 a {
-  color: grey;
+  color: #808080;
   text-decoration: none;
 }
 
@@ -570,4 +570,62 @@ a.tags,
   width: 20px;
   height: 200px;
   background: #808080;
+}
+
+/* Second Book Section */
+.second-book {
+  padding: 50px 60px;
+  display: flex;
+
+}
+
+.second-book div {
+  width: 68%;
+  padding: 0 20px;
+}
+
+.second-book > a {
+  position: relative;
+  width: 32%;
+  display: block;
+}
+
+.second-book span {
+  display: block;
+  width: 33%;
+  height: 20px;
+  background: #808080;
+}
+
+.second-book h2 {
+  padding: 25px 0;
+  margin: 15px 0;
+  font-size: 35px;
+  font-weight: bold;
+  background: #fff;
+}
+
+.second-book h2 a {
+  color: #808080;
+}
+
+.second-book p {
+  padding: 5px 0;
+  line-height: 1.6;
+  color: #808080;
+  background: #fff;
+}
+
+.second-book div > a {
+  display: block;
+  width: 33%;
+  height: 70px;
+  margin-top: 25px;
+  background: #808080;
+}
+
+.second-book img {
+  position: absolute;
+  right: 0;
+  top: -80px;
 }

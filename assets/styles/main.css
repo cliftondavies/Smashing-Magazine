@@ -5,8 +5,13 @@
   box-sizing: border-box;
 }
 
+/* General */
 body {
   background: #d3d3d3;
+}
+
+strong {
+  font-weight: 700;
 }
 
 /* Nav Bar */
@@ -272,7 +277,7 @@ a.tags,
 }
 
 .ad {
-  background: #B4BCC4;
+  background: #BCBCBC;
 }
 
 .recent-articles .first-ra,
@@ -383,4 +388,59 @@ a.tags,
 /* First Book */
 .first-book {
   margin-top: 230px;
+  padding: 70px 0;
+  /* height: 1090px; */
+  background: #B4BCC4;
+}
+
+.book-info {
+  max-width: 1280px;
+  height: 949px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.book-info > * {
+  display: block;
+}
+
+.book-info span {
+  height: 28px;
+  width: 28%;
+  margin: 0 auto;
+  background: #808080;
+}
+
+.book-info h2 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 10px 0;
+  font-size: 35px;
+  line-height: 1.3;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background: #808080;
+}
+
+.book-info p {
+  width: 55%;
+  margin: 15px auto;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  background: #808080;
+  color: #fff;
+}
+
+.book-info a:first-of-type {
+  width: 30%;
+  height: 65px;
+  margin: 50px auto;
+  background: #808080;
+}
+
+.book-info a:last-of-type {
+  width: 920px;
+  margin: 0 auto;
 }

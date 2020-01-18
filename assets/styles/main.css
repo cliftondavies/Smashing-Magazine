@@ -444,3 +444,130 @@ a.tags,
   width: 920px;
   margin: 0 auto;
 }
+
+/* Community */
+.community {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 200px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.section-heading-cs,
+.see-more-cs {
+  position: absolute;
+}
+
+.person {
+  width: 100%;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.person a {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.person-info {
+  width: 923px;
+  height: 223px;
+  background: white;
+}
+
+.person-info h4 {
+  width: 25%;
+  height: 37px;
+  background: #808080;
+}
+
+.person-info p {
+  width: 100%;
+  height: 131px;
+  background: #808080;
+  margin-top: 55px;
+}
+
+.more-articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.more-articles article {
+  width: 50%;
+  height: 379px;
+  display: flex;
+  align-items: center;
+}
+
+.more-info {
+  width: 621px;
+  height: 218px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-info > a {
+  display: block;
+  width: 80px;
+  height: 80px;
+  text-align: right;
+}
+
+.more-info div {
+  width: 521px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.more-info div > span {
+  display: block;
+  width: 30%;
+  height: 20px;
+  background: #808080;
+}
+
+.more-info h3 {
+  padding: 5px 0;
+  font-size: 25px;
+  font-weight: bold;
+  background: #fff;
+}
+
+.more-info h3 a {
+  color: grey;
+  text-decoration: none;
+}
+
+.more-info p {
+  line-height: 1.6;
+  background: #fff;
+  color: #808080;
+}
+
+.more-info p span {
+  font-size: 12px;
+}
+
+.see-more-cs {
+  top: 1550px;
+  left: 525px;
+  display: block;
+  width: 250px;
+  height: 40px;
+  background: #808080;
+}
+
+.section-heading-cs {
+  top: -20px;
+  left: -29px;
+  width: 20px;
+  height: 200px;
+  background: #808080;
+}

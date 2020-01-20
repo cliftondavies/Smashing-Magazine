@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'dejavu_serifbook';
+  src: url('assets/fonts/DejaVuSerif-webfont.woff') format('woff')
+}
+
 /* Box Model */
 *,
 *::before,
@@ -8,6 +13,7 @@
 /* General */
 body {
   background: #d3d3d3;
+  font-family: "dejavu_serifbook";
 }
 
 strong {

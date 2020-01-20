@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'dejavu_serifbook';
-  src: url('assets/fonts/DejaVuSerif-webfont.woff') format('woff')
+  font-family: "dejavu_serifbook";
+  src: url("assets/fonts/DejaVuSerif-webfont.woff") format("woff");
 }
 
 /* Box Model */

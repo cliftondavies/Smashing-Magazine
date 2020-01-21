@@ -690,6 +690,7 @@ a.tags,
 .second-g,
 .third g {
   height: 651px;
+  margin-bottom: 25px;
 }
 
 .fourth g,
@@ -763,7 +764,7 @@ a.tags,
 }
 
 .see-more-g {
-  top: 1860px;
+  top: 1835px;
   left: 525px;
   display: block;
   width: 250px;
@@ -779,7 +780,95 @@ a.tags,
   background: #808080;
 }
 
-/* Page Footer */
+/* -----Page Footer----- */
 .footer {
-  margin-top: 230px;
+  position: relative;
+  margin-top: 170px;
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 60px;
+  background: #BCBCBC;
+}
+
+.footer img {
+  position: absolute;
+}
+
+.footer h5 {
+  width: 33%;
+  height: 30px;
+  margin: 0 auto;
+  background: #808080;
+}
+
+.footer div {
+  width: 100%;
+  margin-top: 75px;
+  margin-bottom: 120px;
+}
+
+.footer ul:first-child {
+  width: 100%;
+  height: 300px;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.footer li {
+  width: calc(10% - 20px);
+  height: 50px;
+  margin: 0 10px;
+  background: #808080;
+}
+
+.footer a {
+  display: block;
+  width: 100%;
+}
+
+.footer p {
+  width: 30%;
+  height: 140px;
+  margin: 45px auto;
+  background: #808080;
+}
+
+.footer > ul {
+  width: 40%;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.footer > ul li {
+  width: calc(25% - 10px);
+  margin: 0 5px;
+  height: 30px;
+}
+
+.footer img:first-of-type {
+  bottom: 35px;
+  left: 180px;
+}
+
+.footer img:last-of-type {
+  bottom: 45px;
+  right: 130px;
+}
+
+/* --Back-To-Top Button-- */
+footer + a {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #808080;
 }

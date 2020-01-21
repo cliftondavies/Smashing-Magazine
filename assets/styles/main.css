@@ -1,4 +1,4 @@
-/* Fonts */
+/* ------------------------------Fonts----------------------------- */
 @font-face {
   font-family: "DejaVuSerif";
   src: url('../fonts/DejaVuSerif-webfont.woff') format('woff');
@@ -13,31 +13,20 @@
   font-style: normal;
 }
 
-/* Box Model */
+/* -------General-------- */
 *,
 *::before,
-*::after {
-  box-sizing: border-box;
-}
+*::after { box-sizing: border-box; }
 
-/* General */
-html {
-  font-family: "DejaVuSerif", serif;
-}
+html { font-family: "DejaVuSerif", serif; }
 
-body {
-  background: #d3d3d3;
-}
+body { background: #d3d3d3; }
 
-strong {
-  font-weight: 700;
-}
+strong { font-weight: 700; }
 
-/* Nav Bar */
+/* ----------Nav Bar---------- */
 .nav {
-  /* height: 180px; */
   padding: 10px 25px;
-  /* border-bottom: 1px solid lightgrey; */
   background: #d3d3d3;
 }
 
@@ -46,15 +35,7 @@ strong {
   height: 140px;
 }
 
-.nav-list li {
-  /* display: flex; */
-  /* border: 1px solid red; */
-  flex: 1;
-}
-
-/* .logo {
-  flex: 2;
-} */
+.nav-list li { flex: 1; }
 
 .nav-list a {
   display: flex;
@@ -63,7 +44,6 @@ strong {
   align-items: center;
   height: 138px;
   padding: 0 10px;
-  /* border: 1px solid blue; */
 }
 
 .topics span {
@@ -79,20 +59,11 @@ strong {
   background: #808080;
 }
 
-.menu span:first-child {
-  width: 30%;
-}
+.menu span:first-child { width: 30%; }
 
-.menu span:nth-child(2) {
-  width: 60%;
-}
+.menu span:nth-child(2) { width: 60%; }
 
-/* .logo img,
-.topics span {
-  align-self: center;
-} */
-
-/* Latest Articles */
+/* --------Latest Articles---------- */
 .latest-articles {
   position: relative;
   display: flex;
@@ -100,9 +71,7 @@ strong {
 }
 
 .main-heading,
-.btn {
-  position: absolute;
-}
+.btn { position: absolute; }
 
 .latest-articles article {
   width: 50%;
@@ -113,14 +82,10 @@ strong {
 }
 
 .first,
-.fourth {
-  background: #B4BCC4;
-}
+.fourth { background: #B4BCC4; }
 
 .second,
-.third {
-  background: #BCBCBC;
-}
+.third { background: #BCBCBC; }
 
 .latest-articles .third,
 .latest-articles .fourth {
@@ -128,51 +93,28 @@ strong {
   align-self: flex-end;
 }
 
-.info {
-  /* display: flex;
-  flex-direction: column; */
-  /* justify-content: center; */
-  height: 500px;
-  /* border: 1px solid blue; */
-}
+.info { height: 500px; }
 
- /* .first .info,
-.second .info {
-  margin-top: 190px;
-} */
+.info * { display: block; }
 
-.info * {
-  /* border: 1px solid red; */
-  display: block;
-}
-
-.info > * {
-  margin-bottom: 30px;
-}
+.info > * { margin-bottom: 30px; }
 
 .info .author {
   height: 75px;
   display: flex;
-  /* overflow: hidden; */
-}
-
-.info .author a {
-  /* float: left; */
 }
 
 .info .author span {
   width: 200px;
   height: 25px;
-  /* float: left; */
   margin-left: 20px;
   padding: 25px 0;
-  /* border: 1px solid green; */
 }
 
 .author span a {
   width: 100%;
   height: 30px;
-  background: grey;
+  background: #808080;
 }
 
 .info .title {
@@ -181,7 +123,6 @@ strong {
 }
 
 .info .title h2 {
-  /* float: left; */
   font-size: 35px;
   line-height: 1.3;
   color: #808080;
@@ -194,8 +135,7 @@ strong {
   bottom: 10px;
   width: 155px;
   height: 25px;
-  /* float: right; */
-  background: grey;
+  background: #808080;
 }
 
 .tags {
@@ -205,25 +145,21 @@ strong {
 
 a.tags,
 .tags li {
-  /* float: left; */
   width: 29%;
   height: 26px;
   margin-right: 20px;
-  /* border: 1px solid blue; */
-  background: grey;
+  background: #808080;
 }
 
 .info .arrow {
   width: 8%;
   height: 20px;
-  background: grey;
+  background: #808080;
   margin-top: 80px;
 }
 
 .second .arrow,
-.third .arrow {
-  margin-top: 128px;
-}
+.third .arrow { margin-top: 128px; }
 
 .btn {
   top: 40px;
@@ -268,7 +204,7 @@ a.tags,
   color: #808080;
 }
 
-/*Recent Articles*/
+/* ----------------Recent Articles------------- */
 .recent-articles {
   position: relative;
   max-width: 1280px;
@@ -278,9 +214,7 @@ a.tags,
 }
 
 .section-heading,
-.see-more {
-  position: absolute;
-}
+.see-more { position: absolute; }
 
 .recent-articles article,
 .ad {
@@ -289,27 +223,20 @@ a.tags,
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 20px;
-  /* padding-bottom: 100px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.ad {
-  background: #BCBCBC;
-}
+.ad { background: #BCBCBC; }
 
 .recent-articles .first-ra,
 .recent-articles .second-ra,
-.recent-articles .third-ra {
-  height: 516px;
-}
+.recent-articles .third-ra { height: 516px; }
 
 .details > *,
 .arrow-ra,
-.join > * {
-  display: block;
-}
+.join > * { display: block; }
 
 .duration {
   width: 30%;
@@ -330,8 +257,8 @@ a.tags,
 .author-ra {
   width: 30%;
   height: 40px;
-  background: #808080;
   margin: 15px 0;
+  background: #808080;
 }
 
 .details p {
@@ -358,9 +285,7 @@ a.tags,
   flex-wrap: wrap;
 }
 
-.join > * {
-  width: 100%;
-}
+.join > * { width: 100%; }
 
 .join img {
   display: block;
@@ -404,11 +329,10 @@ a.tags,
   background: #808080;
 }
 
-/* First Book */
+/* ------------First Book------------ */
 .first-book {
   margin-top: 230px;
   padding: 70px 0;
-  /* height: 1090px; */
   background: #B4BCC4;
 }
 
@@ -419,9 +343,7 @@ a.tags,
   padding: 0 24px;
 }
 
-.book-info > * {
-  display: block;
-}
+.book-info > * { display: block; }
 
 .book-info span {
   height: 28px;
@@ -464,7 +386,7 @@ a.tags,
   margin: 0 auto;
 }
 
-/* Community */
+/* ------------Community------------ */
 .community {
   position: relative;
   max-width: 1280px;
@@ -476,9 +398,7 @@ a.tags,
 }
 
 .section-heading-cs,
-.see-more-cs {
-  position: absolute;
-}
+.see-more-cs { position: absolute; }
 
 .person {
   width: 100%;
@@ -495,7 +415,6 @@ a.tags,
 .person-info {
   width: 923px;
   height: 223px;
-  /* background: white; */
 }
 
 .person-info h4 {
@@ -570,13 +489,9 @@ a.tags,
   color: #808080;
 }
 
-.more-info p span {
-  font-size: 12px;
-}
+.more-info p span { font-size: 12px; }
 
-.more-info p a {
-  color: #808080;
-}
+.more-info p a { color: #808080; }
 
 .see-more-cs {
   top: 1550px;
@@ -595,7 +510,7 @@ a.tags,
   background: #808080;
 }
 
-/* Second Book Section */
+/* --------------Second Book---------------- */
 .second-book {
   padding: 50px 60px;
   display: flex;
@@ -628,9 +543,7 @@ a.tags,
   background: #fff;
 }
 
-.second-book h2 a {
-  color: #808080;
-}
+.second-book h2 a { color: #808080; }
 
 .second-book p {
   padding: 5px 0;
@@ -653,7 +566,7 @@ a.tags,
   top: -80px;
 }
 
-/* Guides Section */
+/* -------------Guides Section-------------- */
 .guides {
   position: relative;
   width: 1280px;
@@ -667,18 +580,12 @@ a.tags,
 }
 
 .guides h4,
-.see-more-g {
-  position: absolute;
-}
+.see-more-g { position: absolute; }
 
 .guides article,
-.ad-g {
-  padding: 0 25px;
-}
+.ad-g { padding: 0 25px; }
 
-.guides article {
-  width: 33.33%;
-}
+.guides article { width: 33.33%; }
 
 .ad-g {
   width: 66.66%;
@@ -694,13 +601,9 @@ a.tags,
 }
 
 .fourth g,
-.ad-g {
-  height: 1052px;
-}
+.ad-g { height: 1052px; }
 
-.guide-info {
-  padding-bottom: 20px;
-}
+.guide-info { padding-bottom: 20px; }
 
 .guide-info h5 {
   width: 25%;
@@ -780,7 +683,7 @@ a.tags,
   background: #808080;
 }
 
-/* -----Page Footer----- */
+/* ------------Page Footer----------- */
 .footer {
   position: relative;
   margin-top: 170px;
@@ -790,9 +693,7 @@ a.tags,
   background: #BCBCBC;
 }
 
-.footer img {
-  position: absolute;
-}
+.footer img { position: absolute; }
 
 .footer h5 {
   width: 33%;

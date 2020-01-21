@@ -574,6 +574,10 @@ a.tags,
   font-size: 12px;
 }
 
+.more-info p a {
+  color: #808080;
+}
+
 .see-more-cs {
   top: 1550px;
   left: 525px;

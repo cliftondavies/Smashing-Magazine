@@ -13,7 +13,7 @@
   font-style: normal;
 }
 
-/* -------General-------- */
+/* ------------------------------General----------------------------- */
 *,
 *::before,
 *::after { box-sizing: border-box; }
@@ -24,7 +24,7 @@ body { background: #d3d3d3; }
 
 strong { font-weight: 700; }
 
-/* ----------Nav Bar---------- */
+/* ----------------Nav Bar-------------------- */
 .nav {
   padding: 10px 25px;
   background: #d3d3d3;
@@ -63,7 +63,7 @@ strong { font-weight: 700; }
 
 .menu span:nth-child(2) { width: 60%; }
 
-/* --------Latest Articles---------- */
+/* ----------Latest Articles------------ */
 .latest-articles {
   position: relative;
   display: flex;
@@ -82,10 +82,10 @@ strong { font-weight: 700; }
 }
 
 .first,
-.fourth { background: #B4BCC4; }
+.fourth { background: #b4bcc4; }
 
 .second,
-.third { background: #BCBCBC; }
+.third { background: #bcbcbc; }
 
 .latest-articles .third,
 .latest-articles .fourth {
@@ -204,7 +204,7 @@ a.tags,
   color: #808080;
 }
 
-/* ----------------Recent Articles------------- */
+/* -------------Recent Articles------------- */
 .recent-articles {
   position: relative;
   max-width: 1280px;
@@ -228,7 +228,7 @@ a.tags,
   justify-content: space-between;
 }
 
-.ad { background: #BCBCBC; }
+.ad { background: #bcbcbc; }
 
 .recent-articles .first-ra,
 .recent-articles .second-ra,
@@ -333,7 +333,7 @@ a.tags,
 .first-book {
   margin-top: 230px;
   padding: 70px 0;
-  background: #B4BCC4;
+  background: #b4bcc4;
 }
 
 .book-info {
@@ -514,7 +514,7 @@ a.tags,
 .second-book {
   padding: 50px 60px;
   display: flex;
-  background: #BCBCBC;
+  background: #bcbcbc;
 }
 
 .second-book div {
@@ -590,7 +590,7 @@ a.tags,
 .ad-g {
   width: 66.66%;
   text-align: center;
-  background: #BCBCBC;
+  background: #bcbcbc;
 }
 
 .first-g,
@@ -690,7 +690,7 @@ a.tags,
   width: 100%;
   min-height: 100vh;
   padding: 60px 60px;
-  background: #BCBCBC;
+  background: #bcbcbc;
 }
 
 .footer img { position: absolute; }
@@ -711,7 +711,7 @@ a.tags,
 .footer ul:first-child {
   width: 100%;
   height: 300px;
-  margin: 0px auto;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -763,7 +763,7 @@ a.tags,
   right: 130px;
 }
 
-/* --Back-To-Top Button-- */
+/* ----Back-To-Top Button---- */
 footer + a {
   position: fixed;
   bottom: 10px;

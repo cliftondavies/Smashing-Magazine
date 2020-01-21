@@ -26,7 +26,7 @@ The page ends with a **Footer** section mostly made up of a heading, two sets of
 
 ### Layout & Presentation
 
-CSS Flexbox is mainly used to layout and align elements on the webpage.
+**CSS Flexbox** is mainly used to layout and align elements on the webpage.
 
 Barring the **First Book** section, this technique is employed in all the other sections to layout page elements, from links in the nav bar to articles and guides in the sections that follow.
 

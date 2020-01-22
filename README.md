@@ -39,7 +39,7 @@ The empty elements representing section headings, links to more articles, and fo
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/cliftondavies/Smashing-Magazine/feature/homepage/index.html)
+[Live Demo Link](https://cliftondavies.github.io/Smashing-Magazine/)
 
 ## Authors
 
